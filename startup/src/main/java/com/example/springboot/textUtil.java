@@ -6,6 +6,6 @@ public class textUtil{
    
     public String getText(){
         String[] arr = {"my","func","return","the","string"};
-        return StringUtils.abbreviate(arr, 16);
+        return StringUtils.join(arr,' ');// 16);
     }
 }
